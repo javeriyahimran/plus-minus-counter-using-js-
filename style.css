@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@300;400;600&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+
+}
+body,html{
+    background-color: #EFF4F5;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    /* padding-top: 150px; */
+
+}
+
+.card{
+
+height: 350px;
+width:600px ;
+box-shadow: 10px 10px 15px rgb(183, 183, 183),-10px -10px 15px white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 21px;
+}
+.name{
+    font-size: 3rem;
+}
+#counter{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.prevbtn, .nextbtn{
+font-size: 2rem;
+padding: 0.7rem 1.5rem;
+cursor: pointer;
+outline: none;
+margin:0 3rem ;
+
+}
